@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project datasets and generated model artifacts
+dataset/raw/chordonomicon_v2.csv
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+
+# C/C++ build outputs
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+compile_commands.json
+*.o
+*.obj
+*.a
+*.lib
+*.dylib
+*.dll
+*.exe
+*.out
+*.dSYM/
+
+# C/C++ IDE and tooling files
+.clangd/
+.cache/
+.ccls-cache/
+.vs/
+*.user
+*.suo
+*.pdb

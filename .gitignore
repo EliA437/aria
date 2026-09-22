@@ -219,6 +219,7 @@ __marimo__/
 
 # Project datasets and generated model artifacts
 dataset/raw/chordonomicon_v2.csv
+dataset/processed/
 *.ckpt
 *.pth
 *.pt
